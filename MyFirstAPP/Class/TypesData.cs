@@ -89,7 +89,7 @@ public class TypesData
     }
 
     // Second Method
-    public void PrintVar()
+    public static void PrintVar()
     {
         // Create a Var , used not implicit type
         var name = "John";

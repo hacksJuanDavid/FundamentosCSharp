@@ -20,13 +20,13 @@ namespace MyFirstAPP
                 new Tuple<string, int>("John", 1), "Dynamic type");
             // Call method SayHello
             typesData.SayHello();
-            typesData.PrintVar();
+            TypesData.PrintVar();
 
             // Crear una instancia de la clase OperatorsArithmeticAndLogical
             OperatorsArithmeticAndLogical calculator = new OperatorsArithmeticAndLogical(10, 5, 2);
 
             // Llamar al método Sum a través de la instancia
-            calculator.PrintTitleClass();
+            OperatorsArithmeticAndLogical.PrintTitleClass();
             calculator.Sum();
             calculator.Subtraction();
             calculator.Multiplication();
@@ -71,19 +71,19 @@ namespace MyFirstAPP
             // Call method While
             estructureOfConditions.While();
             estructureOfConditions.DoWhile();
-            estructureOfConditions.For();
-            estructureOfConditions.Foreach();
-            estructureOfConditions.Break();
-            estructureOfConditions.Continue();
-            estructureOfConditions.Break();
-            estructureOfConditions.Continue();
-            estructureOfConditions.Return();
+            EstructureOfConditions.For();
+            EstructureOfConditions.Foreach();
+            EstructureOfConditions.Break();
+            EstructureOfConditions.Continue();
+            EstructureOfConditions.Break();
+            EstructureOfConditions.Continue();
+            EstructureOfConditions.Return();
             estructureOfConditions.TryCatch();
             estructureOfConditions.Throw();
-            estructureOfConditions.Using();
+            EstructureOfConditions.Using();
             estructureOfConditions.Lock();
-            estructureOfConditions.Checked();
-            estructureOfConditions.Unchecked();
+            EstructureOfConditions.Checked();
+            EstructureOfConditions.Unchecked();
 
         }
     }

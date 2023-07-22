@@ -75,7 +75,7 @@ public class EstructureOfConditions
     }
 
     // Method For
-    public void For()
+    public static void For()
     {
         for (int i = 0; i < 10; i++)
         {
@@ -84,7 +84,7 @@ public class EstructureOfConditions
     }
 
     // Method Foreach
-    public void Foreach()
+    public static void Foreach()
     {
         int[] numbers = { 1, 2, 3, 4, 5 };
         foreach (int number in numbers)
@@ -94,7 +94,7 @@ public class EstructureOfConditions
     }
 
     // Method Break
-    public void Break()
+    public static void Break()
     {
         for (int i = 0; i < 10; i++)
         {
@@ -108,7 +108,7 @@ public class EstructureOfConditions
     }
 
     // Method Continue
-    public void Continue()
+    public static void Continue()
     {
         for (int i = 0; i < 10; i++)
         {
@@ -122,7 +122,7 @@ public class EstructureOfConditions
     }
 
     // Method Return
-    public void Return()
+    public static void Return()
     {
         for (int i = 0; i < 10; i++)
         {
@@ -188,12 +188,11 @@ public class EstructureOfConditions
 
 
     // Method Using
-    public void Using()
-    {
-        using (StreamWriter writer = new StreamWriter("file.txt"))
-        {
-            writer.WriteLine("Hello World");
-        }
+    public static void Using()
+    {   
+        // Imprimir un texto en un archivo
+        using StreamWriter writer = new("file.txt");
+        writer.WriteLine("Hello World");
     }
 
     // Method Lock
@@ -206,7 +205,7 @@ public class EstructureOfConditions
     }
 
     // Method Checked
-    public void Checked()
+    public static void Checked()
     {
         checked
         {
@@ -216,7 +215,7 @@ public class EstructureOfConditions
     }
 
     // Method Unchecked
-    public void Unchecked()
+    public static void Unchecked()
     {
         unchecked
         {

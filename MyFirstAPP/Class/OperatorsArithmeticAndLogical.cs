@@ -18,7 +18,7 @@ public class OperatorsArithmeticAndLogical
     }
 
 
-    public void PrintTitleClass()
+    public static void PrintTitleClass()
     {
         Console.WriteLine("Method PrintTitleClass");
         Console.WriteLine("Operators Arithmetic and Logical");
